@@ -14,7 +14,7 @@ conda install parallel-fastq-dump 'sra-tools>=3.0.0'
 ```
 
 Then run the code with your SRA ID, Here output is the directory where all the files will be downloaded,
---split-files, if they are pair end read, will be separated 
+--split-files, if they are pair end read, will be separated. For SE read, its not required
 --gzip convert them in gzip file
 
 ```

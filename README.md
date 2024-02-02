@@ -1,7 +1,7 @@
 # SRA_file_download
 
 
-parallel-fastq-dump is a good option 
+### 1. parallel-fastq-dump is a good option 
 
 Details steps are in the link:
 https://github.com/rvalieris/parallel-fastq-dump
@@ -19,4 +19,11 @@ Then run the code with your SRA ID, Here output is the directory where all the f
 
 ```
 parallel-fastq-dump --sra-id SRR7635124 --threads 4 --outdir output/ --split-files --gzip
+```
+### 2. fasterq-dump 
+Another option, it does not produce .cache files, and its extracts files in FASTQ format not in fastq.gz format
+link: https://rnnh.github.io/bioinfo-notebook/docs/fasterq-dump.html
+
+```
+fasterq-dump --threads 4 --progress  SRR7635124
 ```

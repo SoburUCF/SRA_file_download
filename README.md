@@ -33,7 +33,3 @@ fasterq-dump --threads 4 --progress  SRR7635124
 
 https://github.com/ncbi/sra-tools/wiki/01.-Downloading-SRA-Toolkit 
 
-
-### 4. Kingfisher download
-
-https://github.com/wwood/kingfisher-download
